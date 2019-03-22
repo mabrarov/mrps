@@ -1,6 +1,6 @@
 FROM alpine:3.9
 
-LABEL name="abrarov/c-bachan"
+LABEL name="c-bachan"
 
 ENV PATH=/opt/c-bachan:$PATH
 
