@@ -9,6 +9,8 @@
 
 ## Steps to build
 
+Assuming current directory is directory where this file is located
+
 ```bash
 cmake -D CMAKE_SKIP_BUILD_RPATH=ON -D CMAKE_BUILD_TYPE=Release .
 cmake --build .
