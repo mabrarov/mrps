@@ -20,13 +20,18 @@ cmake --build .
 
 ## Building
 
-Assuming current directory is directory where this file is located
+### Requirements
+
+1. Docker 17.06+ for building
+1. Current directory is directory where this repository is cloned
+
+### Steps to build
 
 ```bash
-docker build -t c-bachan .
+docker build -t c-bachan c-bachan
 ```
 
-## Running docker image
+## Running with Docker
 
 ```bash
 docker run --rm c-bachan $app $params
